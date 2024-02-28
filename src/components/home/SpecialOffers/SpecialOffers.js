@@ -2,7 +2,7 @@ import React from "react";
 import Heading from "../Products/Heading";
 import Product from "../Products/Product";
 import {
-  spfOne,
+  spfSix,
   spfTwo,
   spfThree,
   spfFour,
@@ -15,39 +15,39 @@ const SpecialOffers = () => {
       <div className="w-full grid grid-cols-1 md:grid-cols-2 lgl:grid-cols-3 xl:grid-cols-4 gap-10">
         <Product
           _id="1101"
-          img={spfOne}
-          productName="Cap for Boys"
-          price="35.00"
+          img={spfSix}
+          productName="Ear Buds"
+          price="999"
           color="Blank and White"
           badge={true}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des="truke Buds F1 Ultra with 60 Hours Playtime, Spatial Audio, 13mm Drivers, Multi-modes Bluetooth Headset  (Black, True Wireless)."
         />
         <Product
           _id="1102"
           img={spfTwo}
-          productName="Tea Table"
-          price="180.00"
+          productName="Smart Watch"
+          price="2,429"
           color="Gray"
           badge={true}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des="realme Smart Watch 2 with Superbright HD Display & 90 Sports Modes  (Black Strap, Regular)#JustHere."
         />
         <Product
           _id="1103"
           img={spfThree}
           productName="Headphones"
-          price="25.00"
+          price="799"
           color="Mixed"
           badge={true}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des="ZEBRONICS Zeb Dynamic Bluetooth Wireless Headphone With Mic 30*H Playback, Call Function. Bluetooth Headset  (Black, On the Ear)."
         />
         <Product
           _id="1104"
           img={spfFour}
-          productName="Sun glasses"
-          price="220.00"
-          color="Black"
+          productName="realme C53"
+          price="9,499"
+          color="Pink"
           badge={true}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des="realme C53 (Champion Gold, 128 GB)  (6 GB RAM)#JustHere."
         />
       </div>
     </div>

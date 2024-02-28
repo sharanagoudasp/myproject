@@ -17,7 +17,7 @@ const BestSellers = () => {
           _id="1011"
           img={bestSellerOne}
           productName="Flower Base"
-          price="35.00"
+          price="350"
           color="Blank and White"
           badge={true}
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
@@ -25,29 +25,29 @@ const BestSellers = () => {
         <Product
           _id="1012"
           img={bestSellerTwo}
-          productName="New Backpack"
-          price="180.00"
-          color="Gray"
+          productName="Vivo v29"
+          price="40,000"
+          color="Pink"
           badge={false}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des="vivo V29 5G (Red, 256 GB)  (12 GB RAM)."
         />
         <Product
           _id="1013"
           img={bestSellerThree}
-          productName="Household materials"
-          price="25.00"
+          productName="One Plus"
+          price="17,806"
           color="Mixed"
           badge={true}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des="OnePlus Nord CE 3 Lite 5G (Chromatic Gray, 128 GB)  (8 GB RAM)."
         />
         <Product
           _id="1014"
           img={bestSellerFour}
-          productName="Travel Bag"
-          price="220.00"
-          color="Black"
+          productName="Ear Pods"
+          price="999"
+          color="Green"
           badge={false}
-          des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+          des="Boult W20 with Zen ENC Mic, 32H Battery Life, Low Latency Gaming, Made in India, 5.3v Bluetooth Headset  (Pine Green, True Wireless)."
         />
       </div>
     </div>

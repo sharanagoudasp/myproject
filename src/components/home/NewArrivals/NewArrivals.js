@@ -7,6 +7,7 @@ import {
   newArrTwo,
   newArrThree,
   newArrFour,
+  newArrFive,
 } from "../../../assets/images/index";
 import SampleNextArrow from "./SampleNextArrow";
 import SamplePrevArrow from "./SamplePrevArrow";
@@ -55,10 +56,10 @@ const NewArrivals = () => {
             _id="100001"
             img={newArrOne}
             productName="Round Table Clock"
-            price="44.00"
+            price="900"
             color="Black"
             badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="Kadio Analog rose black Clock."
           />
         </div>
         <div className="px-2">
@@ -66,43 +67,43 @@ const NewArrivals = () => {
             _id="100002"
             img={newArrTwo}
             productName="Smart Watch"
-            price="250.00"
+            price="1,599"
             color="Black"
             badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="Fire-Boltt Rise BT Calling,1.85, Voice Assistance & 123 Sports Single BT Connection Smartwatch  (Black Strap, Free Size)."
           />
         </div>
         <div className="px-2">
           <Product
             _id="100003"
             img={newArrThree}
-            productName="cloth Basket"
-            price="80.00"
-            color="Mixed"
+            productName="Realme 12 Pro"
+            price="32000"
+            color="Blue"
             badge={true}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="realme 12 Pro 5G (Submarine Blue, 128 GB)  (8 GB RAM)#JustHere."
           />
         </div>
         <div className="px-2">
           <Product
             _id="100004"
             img={newArrFour}
-            productName="Funny toys for babies"
-            price="60.00"
-            color="Mixed"
+            productName="JBL"
+            price="600"
+            color="Red"
             badge={false}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="JBL C150SI with One Button Universal Remote Wired Headset  (Red, In the Ear)."
           />
         </div>
         <div className="px-2">
           <Product
             _id="100005"
-            img={newArrTwo}
-            productName="Funny toys for babies"
-            price="60.00"
-            color="Mixed"
+            img={newArrFive}
+            productName="Samsung"
+            price="1,19,999"
+            color="Titanium Gray"
             badge={false}
-            des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic excepturi quibusdam odio deleniti reprehenderit facilis."
+            des="Samsung Galaxy S24 Ultra 5G."
           />
         </div>
       </Slider>

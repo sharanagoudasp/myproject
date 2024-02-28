@@ -4,6 +4,7 @@ import {
   saleImgOne,
   saleImgTwo,
   saleImgThree,
+  
 } from "../../../assets/images/index";
 import Image from "../../designLayouts/Image";
 
@@ -21,7 +22,7 @@ const Sale = () => {
             <Image className="h-full w-full object-cover" imgSrc={saleImgTwo} />
           </Link>
         </div>
-        <div className="h-1/2 w-full">
+        <div className="h-80 w-full">
           <Link to="/shop">
             <Image
               className="h-full w-full object-cover"

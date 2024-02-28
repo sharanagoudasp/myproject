@@ -5,6 +5,7 @@ import {
   bannerImgOne,
   bannerImgTwo,
   bannerImgThree,
+  
 } from "../../assets/images";
 import Image from "../designLayouts/Image";
 
@@ -114,7 +115,7 @@ const Banner = () => {
         </Link>
         <Link to="/offer">
           <div>
-            <Image imgSrc={bannerImgThree} />
+            <Image imgSrc={ bannerImgThree} />
           </div>
         </Link>
       </Slider>
