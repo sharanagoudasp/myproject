@@ -8,6 +8,7 @@ import {
 } from "../../../assets/images/index";
 import Image from "../../designLayouts/Image";
 
+
 const Sale = () => {
   return (
     <div className="py-20 flex flex-col md:flex-row items-center justify-between gap-4 lg:gap-10">
@@ -22,7 +23,8 @@ const Sale = () => {
             <Image className="h-full w-full object-cover" imgSrc={saleImgTwo} />
           </Link>
         </div>
-        <div className="h-80 w-full">
+       
+        <div className="h-full w-full" id="saleImgThree">
           <Link to="/shop">
             <Image
               className="h-full w-full object-cover"
@@ -32,6 +34,7 @@ const Sale = () => {
         </div>
       </div>
     </div>
+
   );
 };
 
